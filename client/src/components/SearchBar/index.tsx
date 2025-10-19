@@ -1,13 +1,19 @@
 
 const SearchBar: React.FC = () => {
-    
+    const brands: string[] = ['Admiral', 'Ames Instruments', 'Apache', 'Armstrong', 'Atlas', 'Avanti','Badland', 'Banks', 'Bauer', 'Baxter', 'Berger', 'Braun', 'Bremen', 'Bunker Hill Security',
+        'Cen-Tech', 'Central Forge', 'Central Hydraulics', 'Central Machinery', 'Central Pneumatic',       'Chicago Electric', 'Chief', 'Cobra',  'CoverPro',  'Creekstone', 'Daytona', 'Diamondback',
+        'Doyle', 'Drill Master', 'Drummond', 'Earthquake', 'FastenPro', 'FastenStrong', 'Fischer',    'Fortress', 'Franklin', 'Gordon', 'Grant’s', 'Greenwood', 'Hardy', 'Haul-Master',  'Hercules',   'Holt Industries', 'Hydrostar', 'ICON', 'Jupiter', 'Kenway', 'Laguna', 'Luminar', 'Maddox',
+        'McGraw', 'Merlin', 'Olsen', 'One Stop Gardens', 'Pierce', 'Pittsburgh', 'Pittsburgh Pro',
+        'Portland', 'Predator', 'Quantum', 'Quinn', 'Roadshock', 'Schneider', 'Smith + Jones',      'Spectrum', 'StikTek', 'Storehouse', 'Thunderbolt', 'Titanium', 'U.S. General', 'Union Safe Company', 'Vanguard', 'Viking', 'Voyager', 'Vulcan', 'Warrior', 'Western Safety',
+        'Windsor Design']
+        
     const handleSubmit = () => {
 
     }
 
     return(
         <div>
-            <input placeholder="Search Tool Here" />
+            <input placeholder="Search Tool Name, SKU, or Brand Here" />
             <button onClick={handleSubmit}>Submit</button>
         </div>
     )
