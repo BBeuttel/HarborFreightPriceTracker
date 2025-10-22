@@ -6,6 +6,7 @@ import './App.css'
 // import SearchBar from './components/SearchBar/index.tsx';
 // import Footer from './components/Footer/index.tsx';
 import SupaBaseTest from './SupabaseTest';
+import AuthProvider from './auth/AuthProvider.tsx';
 
 const App = () => {
   // const brands: string[] = [

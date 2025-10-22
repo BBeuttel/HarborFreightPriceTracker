@@ -1,5 +1,5 @@
-import { supabase } from "./supabase";
-import type { User, Seesion } from '@supabase/supabase-js';
+import supabase from "./supabase";
+import type { User, Session } from '@supabase/supabase-js';
 
 type AuthData = {user: User | null; session: Session | null}
 
